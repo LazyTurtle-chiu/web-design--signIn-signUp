@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>signIn-logIn</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="login-signup-app flex-c">
+      <section class="container">
+        <div class="info flex-r">
+          <form action="" class="signin-form flex-c">
+            <h2 class="header-main">Sign In</h2>
+            <div class="input-field">
+              <i class="ri-user-line"></i>
+              <input type="text" id="signin-email" placeholder="Email" />
+            </div>
+            <div class="input-field">
+              <i class="ri-key-2-line"></i>
+              <input type="text" id="signin-password" placeholder="Password" />
+            </div>
+
+            <input type="submit" value="login" class="btn" />
+            <p class="social-text">Or sign in with social platform:</p>
+            <div class="social-media">
+              <a href="#" class="social-icon flex-r">
+                <i class="ri-facebook-line"></i></a
+              ><a href="#" class="social-icon flex-r">
+                <i class="ri-twitter-line"></i></a
+              ><a href="#" class="social-icon flex-r">
+                <i class="ri-google-line"></i
+              ></a>
+            </div>
+            <p class="account-text">
+              Don't have an account? <a href="#" id="register-btn2">Register</a>
+            </p>
+          </form>
+          <!-- register setcion -->
+          <form action="" class="register-form flex-c">
+            <h2 class="header-main">Register</h2>
+            <div class="input-field">
+              <i class="ri-user-line"></i>
+              <input type="text" id="register-email" placeholder="Email" />
+            </div>
+            <div class="input-field">
+              <i class="ri-key-2-line"></i>
+              <input
+                type="text"
+                id="register-password"
+                placeholder="Password"
+              />
+            </div>
+            <div class="input-field">
+              <i class="ri-key-2-line"></i>
+              <input
+                type="text"
+                id="signin-password"
+                placeholder="Confirm Password"
+              />
+            </div>
+            <input type="submit" value="sign up" class="btn" />
+            <p class="social-text">Or sign in with social platform:</p>
+            <div class="social-media">
+              <a href="#" class="social-icon flex-r">
+                <i class="ri-facebook-line"></i></a
+              ><a href="#" class="social-icon flex-r">
+                <i class="ri-twitter-line"></i></a
+              ><a href="#" class="social-icon flex-r">
+                <i class="ri-google-line"></i
+              ></a>
+            </div>
+            <p class="account-text">
+              Already have an account? <a href="#" id="signin-btn2">Sign In</a>
+            </p>
+          </form>
+        </div>
+        <div class="panel-container flex-r">
+          <div class="panel left-panel flex-c">
+            <div class="content flex-c">
+              <h3>Are You A Member?</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est
+                beatae quae, accusantium tempora dolor, earum sunt dolore nisi
+                assumenda dicta.
+              </p>
+              <button class="btn" id="signin-btn">Sign In</button>
+              <img src="./img/sign-in.svg" alt="image" class="img" />
+            </div>
+          </div>
+          <div class="panel right-panel flex-c">
+            <div class="content flex-c">
+              <h3>New to the Site?</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est
+                beatae quae, accusantium tempora dolor, earum sunt dolore nisi
+                assumenda dicta pariatur.
+              </p>
+              <button class="btn" id="register-btn">Register</button>
+              <img src="./img/sign-up.svg" alt="image" class="img" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
